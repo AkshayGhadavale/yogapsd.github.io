@@ -1,9 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@700&family=Caveat:wght@700&family=Dosis:wght@500&family=Fuzzy+Bubbles&family=Raleway+Dots&family=Signika:wght@600&display=swap');
 *{
     padding: 0;
     margin: 0;
 box-sizing: border-box;
 
 }
+body{
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 .wrapper{
     width: 100%;
     height: 100vh;
@@ -22,6 +28,7 @@ box-sizing: border-box;
     width: 100%;
     height:80%;
     background-color: #f2f9f4;
+    display: flex;
 }
 .navbar{
     width: 90%;
@@ -43,6 +50,16 @@ align-items: center;}
     display: flex;
 justify-content: center;
 align-items: center;
+
+}
+#dsideimg{
+position: absolute;
+width:550px;
+height: 550px;
+
+left: 1250px;
+top: 420px;
+
 
 }
 .navlist{
@@ -76,7 +93,62 @@ color: #444d4d;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS'
 .leftwrap .imgsec img{
     width: 90%;
     height: 100%;
+    -webkit-animation-name: spin;
+    -webkit-animation-duration: 8000ms;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+
+    -moz-animation-name: spin;
+    -moz-animation-duration: 8000ms;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+
+    -ms-animation-name: spin;
+    -ms-animation-duration: 8000ms;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+
+    animation-name: spin;
+    animation-duration: 8000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-play-state: paused;
 }
+.leftwrap .imgsec img:hover{
+    animation-play-state: running;
+}
+
+@-ms-keyframes spin { 
+    from { 
+        -ms-transform: rotate(0deg); 
+    } to { 
+        -ms-transform: rotate(360deg); 
+    }
+}
+@-moz-keyframes spin { 
+    from { 
+        -moz-transform: rotate(0deg); 
+    } to { 
+        -moz-transform: rotate(360deg); 
+    }
+}
+@-webkit-keyframes spin { 
+    from { 
+        -webkit-transform: rotate(0deg); 
+    } to { 
+        -webkit-transform: rotate(360deg); 
+    }
+}
+@keyframes spin { 
+    from { 
+        transform: rotate(0deg); 
+    } to { 
+        transform: rotate(360deg); 
+    }
+}
+
+
+
 #imggirl1{
     width: 300px;
     height: 300px;
@@ -86,4 +158,504 @@ color: #444d4d;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS'
 }
 .imgsec:hover{
   transform: rotate(360deg);
+}
+
+
+.rightwrap{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textcontainer{
+    width: 100%;
+    height:45%;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+.textcontainer h1{
+    font-size: 90px;
+    color: #4F9A94;
+    font-family: 'Baloo 2', cursive;
+
+    font-family: 'Caveat', cursive;
+
+    font-family: 'Dosis', sans-serif;
+
+    font-family: 'Fuzzy Bubbles', cursive;
+
+    font-family: 'Raleway Dots', cursive;
+
+    font-family: 'Signika', sans-serif;
+}
+.textcontainer p{
+    padding: 20px;
+    font-size: 15px;
+    text-align:center;
+    width: 80%;
+    color: #4F9A94;
+    font-family: 'Baloo 2', cursive;
+
+    font-family: 'Caveat', cursive;
+
+    font-family: 'Dosis', sans-serif;
+
+    font-family: 'Fuzzy Bubbles', cursive;
+
+    font-family: 'Raleway Dots', cursive;
+
+    font-family: 'Signika', sans-serif;
+}
+
+.textcontainer  button{
+    width: 120px;
+    height: 30px;
+    border-radius: 12px;
+    background-color: #4F9A94;
+    font-family: 'Baloo 2', cursive;
+color:rgb(255, 255, 255);
+    font-family: 'Caveat', cursive;
+
+    font-family: 'Dosis', sans-serif;
+
+    font-family: 'Fuzzy Bubbles', cursive;
+
+    font-family: 'Raleway Dots', cursive;
+
+    font-family: 'Signika', sans-serif;
+}
+
+.section2{
+    width: 100%;
+    height: 100vh;
+    background-color: #4F9A94;
+
+
+}
+.headersec{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ 
+}
+.contentsec{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.texth1{
+    font-size: 70px;
+    color: #ffffff;
+    font-family: 'Baloo 2', cursive;
+
+    font-family: 'Caveat', cursive;
+
+    font-family: 'Dosis', sans-serif;
+
+    font-family: 'Fuzzy Bubbles', cursive;
+
+    font-family: 'Raleway Dots', cursive;
+
+    font-family: 'Signika', sans-serif;
+}
+.texth1small{
+    font-size: 30px;
+    color: #ffffff;
+    font-family: 'Baloo 2', cursive;
+
+    font-family: 'Caveat', cursive;
+
+    font-family: 'Dosis', sans-serif;
+
+    font-family: 'Fuzzy Bubbles', cursive;
+
+    font-family: 'Raleway Dots', cursive;
+
+    font-family: 'Signika', sans-serif;
+}
+
+.textp{
+    padding: 20px;
+    font-size: 15px;
+    text-align:center;
+    width: 60%;
+    color: #ffffff;
+    font-family: 'Baloo 2', cursive;
+
+    font-family: 'Caveat', cursive;
+
+    font-family: 'Dosis', sans-serif;
+
+    font-family: 'Fuzzy Bubbles', cursive;
+
+    font-family: 'Raleway Dots', cursive;
+
+    font-family: 'Signika', sans-serif;
+}
+
+.cardsec{
+    width: 400px;
+    height:100%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.cardsec .imgsec{
+    width: 100%;
+    height: 70%;
+   position: relative;
+   display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cardsec .textsec
+{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.dcardimg{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+  
+}
+.gcardimg{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+  border-radius: 100%;
+
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/******************************************************************************************************************/
+/**********************************mobile responsive***************************************************************/
+/*****************************************************************************************************************/
+
+
+@media screen and (max-width: 800px) {
+
+
+    .wrapper{
+        width: 100%;
+        height: 100vh;
+    
+    }
+    .navbarsec
+    {
+        width: 100%;
+        height:120px;
+        display: flex;
+        align-items: center;
+        background-color: #f2f9f4;
+    
+    }
+    .wrapperbg{
+        width: 100%;
+        height:80%;
+        background-color: #f2f9f4;
+        display: flex;
+        flex-direction: column;
+    }
+    .navbar{
+        width: 90%;
+        height:40%;
+        background-color: #ddede8;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .logosec{
+        width: 30%;
+        height: 60%;
+        display: flex;
+    justify-content: flex-end;
+    align-items: center;}
+    .logoimg{
+        width: 70%;
+        height: 100%;
+        background-color: #90d8c6;
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    }
+    .logoimg img{
+        width: 80%;
+        height: 80%;
+    }
+    .navlist{
+        
+        width: 50%;
+        height: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        display: none;
+    }
+    .navlist li{
+        list-style: none;
+    font-weight: bolder;
+    color: #444d4d;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .leftwrap{
+        width: 100%;
+        height: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .leftwrap .imgsec{
+        width: 90%;
+        height: 90%;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .leftwrap .imgsec img{
+        width: 90%;
+        height: 100%;
+    }
+    #imggirl1{
+        width: 200px;
+        height:200px;
+        position: absolute;
+        border-radius: 100%;
+        border: 7px solid #90d8c6;
+    }
+    .imgsec:hover{
+      transform: rotate(360deg);
+    }
+    
+    
+    .rightwrap{
+        width: 100%;
+        height: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .textcontainer{
+        width: 100%;
+        height:45%;
+      
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:center;
+    }
+    .textcontainer h1{
+        font-size: 60px;
+        color: #68a898;
+        font-family: 'Baloo 2', cursive;
+    
+        font-family: 'Caveat', cursive;
+    
+        font-family: 'Dosis', sans-serif;
+    
+        font-family: 'Fuzzy Bubbles', cursive;
+    
+        font-family: 'Raleway Dots', cursive;
+    
+        font-family: 'Signika', sans-serif;
+    }
+    .textcontainer p{
+        padding: 20px;
+        font-size: 15px;
+        text-align:center;
+        width: 80%;
+        color: #90d8c6;
+        font-family: 'Baloo 2', cursive;
+    
+        font-family: 'Caveat', cursive;
+    
+        font-family: 'Dosis', sans-serif;
+    
+        font-family: 'Fuzzy Bubbles', cursive;
+    
+        font-family: 'Raleway Dots', cursive;
+    
+        font-family: 'Signika', sans-serif;
+    }
+    
+    .textcontainer  button{
+        width: 120px;
+        height: 30px;
+        border-radius: 12px;
+        background-color: #68a898;
+        font-family: 'Baloo 2', cursive;
+    color:wheat;
+        font-family: 'Caveat', cursive;
+    
+        font-family: 'Dosis', sans-serif;
+    
+        font-family: 'Fuzzy Bubbles', cursive;
+    
+        font-family: 'Raleway Dots', cursive;
+    
+        font-family: 'Signika', sans-serif;
+    }
+
+
+
+
+
+    .section2{
+        width: 100%;
+        height: 150vh;
+        background-color: #4F9A94;
+    
+    
+    }
+    .headersec{
+        width: 100%;
+        height: 20%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+     
+    }
+    .contentsec{
+        width: 100%;
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .texth1{
+        font-size: 40px;
+        color: #ffffff;
+        font-family: 'Baloo 2', cursive;
+    
+        font-family: 'Caveat', cursive;
+    
+        font-family: 'Dosis', sans-serif;
+    
+        font-family: 'Fuzzy Bubbles', cursive;
+    
+        font-family: 'Raleway Dots', cursive;
+    
+        font-family: 'Signika', sans-serif;
+    }
+    .texth1small{
+        
+        font-size: 30px;
+        color: #ffffff;
+        font-family: 'Baloo 2', cursive;
+    
+        font-family: 'Caveat', cursive;
+    
+        font-family: 'Dosis', sans-serif;
+    
+        font-family: 'Fuzzy Bubbles', cursive;
+    
+        font-family: 'Raleway Dots', cursive;
+    
+        font-family: 'Signika', sans-serif;
+    }
+    
+    .textp{
+        padding: 20px;
+        font-size: 15px;
+        text-align:center;
+        width: 90%;
+        color: #ffffff;
+        font-family: 'Baloo 2', cursive;
+    
+        font-family: 'Caveat', cursive;
+    
+        font-family: 'Dosis', sans-serif;
+    
+        font-family: 'Fuzzy Bubbles', cursive;
+    
+        font-family: 'Raleway Dots', cursive;
+    
+        font-family: 'Signika', sans-serif;
+    }
+    
+    .cardsec{
+        width:100% ;
+        height:400px;
+     
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .cardsec .imgsec{
+        width: 60%;
+        height: 100%;
+       position: relative;
+       display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .cardsec .textsec
+    {
+        width: 100%;
+        height: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .dcardimg{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+      
+    }
+    .gcardimg{
+        width: 150px;
+        height: 150px;
+        position: absolute;
+      border-radius: 100%;
+    
+     
+    }
+
+
+
+
+
+
+
+
+
+
 }
