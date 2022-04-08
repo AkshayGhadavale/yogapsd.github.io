@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@700&family=Caveat:wght@700&family=Dosis:wght@500&family=Fuzzy+Bubbles&family=Raleway+Dots&family=Signika:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@700&family=Caveat:wght@700&family=Dosis:wght@500&family=Fuzzy+Bubbles&family=Raleway+Dots&family=Signika:wght@600&display=swap');
 *{
     padding: 0;
     margin: 0;
@@ -622,7 +623,149 @@ width: 100%;
     border-radius: 4px;
 }
 
+.section7{
+    width: 100%;
+    height: 100vh;
+    /* background-image: url(/images/bg2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.45; */
+    z-index: 7;
+    position: relative;
+   
+}
+.section7::before {    
+    content: "";
+    background-image: url(/images/bg2.png);
+    background-size: cover;
+    position: absolute;
+    background-position: center;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.35;
+    z-index: 7;
+}
 
+
+.topsec{
+width:100%;
+height: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.topsec .imgsec{
+    width: 300px;
+    height: 300px;
+
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.topsec .imgsec .dcardimg{
+width: 100%;
+height: 100%;
+
+
+}
+.topsec .imgsec  .gcardimg{
+    width: 70%;
+    height: 70%;
+    z-index: 99;
+}
+.downsec{
+    width:100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+ 
+    align-items: center;
+    text-align: center;
+   position: relative;
+    }
+
+    .fontslim{
+        font-family: 'Baloo 2', cursive;
+
+        font-family: 'Caveat', cursive;
+    
+        font-family: 'Dosis', sans-serif;
+    
+        font-family: 'Fuzzy Bubbles', cursive;
+    
+        font-family: 'Raleway Dots', cursive;
+    
+        font-family: 'Signika', sans-serif;
+        font-size: 40px;
+        width: 90%;
+        z-index: 99;
+    
+    }
+
+.tname{
+    margin-top: 100px;
+    z-index: 99;
+}
+
+.searchbarsec{
+    width: 100%;
+    height: 80vh;
+    background-color: #4c9c88;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.textbox{
+    margin-top: 50px;
+    width: 60%;
+    background-color: #ffffff;
+    height: 50px;
+    border-radius: 100px;
+    display: flex;
+  
+    justify-content: center;
+    align-items: center;
+}
+#searchbox{
+width: 80%;
+
+border-top-left-radius: 100px;
+border-bottom-left-radius: 100px;
+height: 100%;
+border: none;
+}
+#subbtn{
+    width: 30%;
+    height: 100%;
+    background-color: #95cdbf;
+    border-radius: 100px;
+}
+#searchbox::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #95cdbf;
+    font-size: 20px;
+    padding-left: 10px;
+  }
+  #searchbox::-moz-placeholder { /* Firefox 19+ */
+    color: #95cdbf;
+    font-size: 20px;
+    padding-left: 10px;
+  }
+  #searchbox:-ms-input-placeholder { /* IE 10+ */
+    color: #95cdbf;
+    font-size: 20px;
+    padding-left: 10px;
+  }
+  #searchbox:-moz-placeholder { /* Firefox 18- */
+    color: #95cdbf;
+    font-size: 20px;
+    padding-left: 10px;
+    
+  }
 /******************************************************************************************************************/
 /**********************************mobile responsive***************************************************************/
 /*****************************************************************************************************************/
@@ -918,6 +1061,336 @@ width: 100%;
 
 
 
+    .section3{
+        width: 100%;
+        height: 100vh;
+        /* background-image: url(/images/bg2.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        opacity: 0.45; */
+    
+        position: relative;
+       
+    }
+    .section3::before {    
+        content: "";
+        background-image: url(/images/bg2.png);
+        background-size: cover;
+        position: absolute;
+        background-position: center;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+        opacity: 0.35;
+    }
+    
+    
+     .headersec{
+        width: 100%;
+        height: 30%;
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+    }
+
+    .section3 .contentsec{
+        width: 100%;
+        height: 70%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    
+
+    }
+    
+    .text-blue-color{
+        color: #4F9A94;
+    }
+    
+    .cardcircle{
+        width: 150px;
+        height: 150px;
+        position: absolute;
+      border-radius: 100%;
+      border: 4px solid #4F9A94;
+      display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      
+    }
+
+
+
+    .cardcircle .texth1{
+        font-size: 30px;
+        
+ text-align: center;
+    }
+    .cardcircle .textp{
+        font-size: 10px;
+        height: 40%;
+    }
+    .section4{
+        width: 100%;
+        height:100vh;
+    display: flex;
+    flex-direction: column;
+    
+    
+    }
+    .leftsec{
+        width: 100%;
+        height:50%;
+        background-color: #4F9A94;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .textsec4{
+      
+            width: 80%;
+            height:80%;
+        
+            background-color: #4F9A94;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+       
+    }
+
+    .textsec4.texth1{
+        font-size: 50px;
+    }
+    
+    .rightsec{
+        width: 100%;
+        height:50%;
+        background-image: url(/images/yogagirl3.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .text-p-width{
+       padding: 0;
+        font-size: 15px;
+        text-align:left;
+        width: 100%;
+        color: #ffffff;
+        font-weight: 100;
+    }
+    .text-h1-width{
+        font-size: 70px;
+        color: #ffffff;
+    }
+    
+    .readbtn {
+        margin-top: 30px;
+        width: 200px;
+        height: 40px;
+        color: #4F9A94;
+        font-family: 'Baloo 2', cursive;
+    
+        font-family: 'Caveat', cursive;
+    
+        font-family: 'Dosis', sans-serif;
+    
+        font-family: 'Fuzzy Bubbles', cursive;
+    
+        font-family: 'Raleway Dots', cursive;
+    
+        font-family: 'Signika', sans-serif;
+    }
+    .readbtn2 {
+    background-color: #4F9A94;
+    color:#ffffff;
+    
+    }
+    
+    .section5{
+        width: 100%;
+        height:100vh;
+    display: flex;
+    flex-direction: column-reverse;
+    position: relative;
+    }
+    .section5 .rightsec{
+        width: 100%;
+        height:50%;
+        background-image: url(/images/girl2.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 80% 90%;
+    }
+    
+    .section5 .textsec4 .texth1{
+        font-size: 50px;
+    }
+    
+    
+    .section5 .leftsec{
+        width: 100%;
+        height:50%;
+    background-color: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .section5 .leftsec::before {    
+        content: "";
+        width: 100%;
+        height: 100%;
+        background-image: url(/images/design1.png);
+        background-size: 60% 90%;
+        position: absolute;
+        background-repeat: no-repeat;
+        background-position:center;
+        top: 50px;
+        right: 0px;
+        bottom: 0px;
+        left: 800px;
+        z-index: 9;
+        opacity: 0.85;
+    }
+    
+    
+    
+    .section5 .textsec4{
+      
+            width: 80%;
+            height:80%;
+        
+            background-color: transparent;
+            
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+       
+    }
+    .section5  .text-p-width{
+        padding: 0;
+         font-size: 15px;
+         text-align:left;
+         width: 100%;
+         color: #4F9A94;
+         font-weight: 100;
+         z-index: 99;
+     }
+     .section5  .text-h1-width{
+         font-size: 70px;
+         color: #4F9A94;
+         z-index: 99;
+     }
+     
+     .section6{
+        width: 100%;
+        height: 200vh;
+        /* background-image: url(/images/bg2.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        opacity: 0.45; */
+        position: relative;
+        background-color: #4F9A94;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+     }
+     .section6 .headersec{
+        width: 100%;
+        height: 20%;
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+    }
+
+
+
+    .section6   .contentsec{
+        width: 100%;
+        height: 80%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .pricecard{
+        width:60%;
+        height: 80%;
+        background-color: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 6px;
+    
+    }
+    .name-price-sec{
+        width: 100%;
+        height: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+     
+        flex-direction: column;
+    }
+    .price-img-sec{
+        width: 100%;
+        height: 30%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .price-img-sec img{
+        width: 20%;
+        height: 80%;
+    }
+    .btn-p-sec{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       
+        width: 100%;
+        height: 40%;
+    }
+    .pricecard .textp{
+    width: 100%;
+    }
+    .regiterbtn{
+        
+        width: 80%;
+        height: 40px;
+        background-color: #4F9A94;
+        color:#ffffff;
+        font-family: 'Baloo 2', cursive;
+    
+        font-family: 'Caveat', cursive;
+    
+        font-family: 'Dosis', sans-serif;
+    
+        font-family: 'Fuzzy Bubbles', cursive;
+    
+        font-family: 'Raleway Dots', cursive;
+    
+        font-family: 'Signika', sans-serif;
+        border-radius: 4px;
+    }
 
 
 
