@@ -766,6 +766,136 @@ border: none;
     padding-left: 10px;
     
   }
+
+
+  .section8{
+    width: 100%;
+    height: 60vh;
+    /* background-image: url(/images/bg2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.45; */
+    z-index: 7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+   
+}
+.footersec1{
+height: 100%;
+width: 40%;
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.footersec2{
+    height: 100%;
+    width: 20%;
+   
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+    }
+    .textfosec{
+        
+        width:80%;
+        height: 50%;
+    }
+    .footersec1  .textp{
+        text-align: left;
+width: 100%;
+    }
+    .footersec1   .texth1small{
+        padding-left: 20px;
+    }
+    .footerlist{
+        list-style: none;
+        width: 100%;
+        height: 50%;
+       
+        display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: flex-start;
+text-align: left;
+    }
+    .footerlist li{
+       
+        font-size: 15px;
+        text-align:center;
+        
+        color: #4F9A94;
+        font-family: 'Baloo 2', cursive;
+    
+        font-family: 'Caveat', cursive;
+    
+        font-family: 'Dosis', sans-serif;
+    
+        font-family: 'Fuzzy Bubbles', cursive;
+    
+        font-family: 'Raleway Dots', cursive;
+    
+        font-family: 'Signika', sans-serif;
+    }
+    .footerlist :first-child{
+        font-size: 20px;
+        color: #4F9A94;
+        font-weight: 500;
+        font-family: 'Baloo 2', cursive;
+    
+        font-family: 'Caveat', cursive;
+    
+        font-family: 'Dosis', sans-serif;
+    
+        font-family: 'Fuzzy Bubbles', cursive;
+    
+        font-family: 'Raleway Dots', cursive;
+    
+        font-family: 'Signika', sans-serif;
+    }
+
+    .footersec3{
+        height: 100%;
+        width: 20%;
+       
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        }
+        
+        .footersec4{
+            height: 100%;
+            width: 20%;
+         
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            }
+            .footersec4 li{
+                width: 40%;
+                display: flex;
+               
+                align-items: center;
+               
+            }
+            .footerlist img{
+                width: 30%;
+                height: 100%;
+                margin-right: 10px;
+
+            }
+
+
+
+
+
 /******************************************************************************************************************/
 /**********************************mobile responsive***************************************************************/
 /*****************************************************************************************************************/
